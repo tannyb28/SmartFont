@@ -1,0 +1,15 @@
+{
+	"name": "Smart Font",
+	"description": "Initial font changing extension",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "smartfont.html",
+		"default_icon": "smartfont.png"
+	},
+	"permissions": [
+		"activeTab",
+		"scripting",
+		"fontSettings"
+	]
+}
